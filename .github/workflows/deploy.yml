@@ -2,10 +2,10 @@ name: Deploy Vue App test-deploy to GitHub Pages
 on: [push]
 jobs:
   Deploy:
-    runs-on: ubuntu-latest@latest
+    runs-on: ubuntu-latest
     steps:
       - name: Execute remote SSH commands using password
-        uses: appleboy/ssh-action@v1
+        uses: appleboy/ssh-action@v0.1.8
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
