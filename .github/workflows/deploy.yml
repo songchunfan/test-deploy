@@ -12,9 +12,9 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           script_stop: true
           script: |
-            cd /root/web_demo
+            # cd /root/web_demo
             ls -al
-            rm -rf test-deploy
+            # rm -rf test-deploy
             # git clone git@github.com:songchunfan/test-deploy.git -b ${{ github.ref_name }}
             # cd test-deploy
             # npm install
