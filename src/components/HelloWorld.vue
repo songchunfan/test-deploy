@@ -17,7 +17,7 @@
           rel="noopener"
           >babel</a
         >
-        <h1 style="background: 'purple'">
+        <h1 style="background: purple">
           Hello Jenkins +1ms
           <sub>Hello Vue</sub>
         </h1>
