@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }} <sub>Hello Vue</sub></h1>
+    <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
       check out the
@@ -17,7 +17,10 @@
           rel="noopener"
           >babel</a
         >
-        <h1>Hello Jenkins +1ms</h1>
+        <h1 style="background: 'purple'">
+          Hello Jenkins +1ms
+          <sub>Hello Vue</sub>
+        </h1>
       </li>
       <li>
         <a
