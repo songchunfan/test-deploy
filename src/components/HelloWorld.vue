@@ -17,9 +17,11 @@
           rel="noopener"
           >babel</a
         >
-        <h1 style="background: purple">
+        <h1 style="background: purple; color: darkorange">
           Hello Jenkins +1ms
-          <sub>Hello Vue</sub>
+          <ul>
+            <li>Hello Docker</li>
+          </ul>
         </h1>
       </li>
     </ul>
@@ -45,7 +47,6 @@ ul {
   padding: 0;
 }
 li {
-  display: inline-block;
   margin: 0 10px;
 }
 a {

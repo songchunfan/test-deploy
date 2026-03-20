@@ -30,4 +30,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### docker
 
-docker run -d -p 9000:80 -v /opt/local/var/lib/jenkins/.jenkins/workspace/test-deploy/dist:/usr/share/nginx/html/test-deploy nginx
+docker run -d -p 9000:80 -v /opt/local/var/lib/jenkins/.jenkins/workspace/test-deploy/dist:/usr/share/nginx/html/test-deploy --name test-deploy nginx
