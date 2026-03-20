@@ -20,7 +20,12 @@
         <h1 style="background: purple; color: darkorange">
           Hello Jenkins +1ms
           <ul>
-            <li>Hello Docker is ok.</li>
+            <li>Hello Docker clever</li>
+            <li>you are lovely</li>
+            <li>you are clever</li>
+            <li>you are beautiful</li>
+            <li>you are great</li>
+            <li>you are awesome</li>
           </ul>
         </h1>
       </li>
