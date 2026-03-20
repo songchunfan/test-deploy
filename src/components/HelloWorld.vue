@@ -22,11 +22,6 @@
           <ul>
             <li>Hello Docker clever</li>
             <li>you are lovely</li>
-            <li>you are clever</li>
-            <li>you are beautiful</li>
-            <li>you are great</li>
-            <li>you are awesome</li>
-            <li>you are empty</li>
           </ul>
         </h1>
       </li>
